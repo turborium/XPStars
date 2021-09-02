@@ -1,0 +1,26 @@
+object FormMain: TFormMain
+  Left = 646
+  Height = 438
+  Top = 230
+  Width = 650
+  Caption = 'XPStars'
+  ClientHeight = 438
+  ClientWidth = 650
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '2.0.10.0'
+  object PaintBoxDisp: TPaintBox
+    Left = 0
+    Height = 438
+    Top = 0
+    Width = 650
+    Align = alClient
+    OnPaint = PaintBoxDispPaint
+  end
+  object TimerAnimate: TTimer
+    Interval = 33
+    OnTimer = TimerAnimateTimer
+    Left = 120
+    Top = 48
+  end
+end
