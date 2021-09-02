@@ -1,2 +1,3 @@
-# XPStars
-XP Stars effect
+# XPStars  
+## XP Stars effect for Lazarus  
+![Alt text](scr.png)
